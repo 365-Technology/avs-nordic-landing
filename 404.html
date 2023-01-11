@@ -21,37 +21,41 @@
   <link id="pagestyle" href="./assets/css/soft-ui-dashboard.css?v=1.1.1" rel="stylesheet" />
 </head>
 
-<body class="">
+<body class="error-page">
   <main class="main-content  mt-0">
-    <section>
-      <div class="page-header min-vh-100">
-        <div class="container">
-          <div class="row">
-            <a href="https://avsglobalsupply.com/" target="_blank" class="btn-link">
-              <div class="col-6 d-lg-flex h-100 my-auto position-absolute top-0 start-0 text-center justify-content-center flex-column p-2 max-height-vw-50 pe-1">
-                <div class="position-relative bg-gradient-info h-100 m-0 px-2 border-radius-lg d-flex flex-column justify-content-center">
-                  <img src="./assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute opacity-4 start-0">
-                  <div class="position-relative">
-                    <img class="max-width-500 w-70 position-relative z-index-2" src="./assets/img/avs-logo.png" alt="AVS Logo">
-                  </div>
-                </div>
-              </div>
+    <section class="my-10">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <h1 class="display-1 text-bolder text-gradient text-danger">Error 404</h1>
+            <h2>Erm. Page not found</h2>
+            <p class="lead">We suggest you to go to the homepage while we solve this issue.</p>
+            <a href="/" class="btn bg-gradient-dark mt-4">
+             Go to homepage
             </a>
-            <a href="https://www.nordic-hamburg.de/" target="_blank" class="btn-link">
-              <div class="col-6 d-lg-flex h-100 my-auto position-absolute top-0 end-0 text-center justify-content-center flex-column p-2 max-height-vw-50 ps-1">
-                <div class="position-relative bg-gradient-dark h-100 m-0 px-2 border-radius-lg d-flex flex-column justify-content-center">
-                  <img src="./assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute opacity-2 start-0">
-                  <div class="position-relative">
-                    <img class="max-width-500 w-100 position-relative z-index-2" src="./assets/img/nh-logo-white.svg" alt="Nordic Hamburg Group">
-                  </div>
-                </div>
-              </div>
-            </a>
+          </div>
+          <div class="col-lg-6 my-auto position-relative">
+            <img class="w-100 position-relative" src="./assets/img/illustrations/error-404.png" alt="404-error">
           </div>
         </div>
       </div>
     </section>
   </main>
+  <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 mx-auto text-center mt-1">
+          <p class="mb-0 text-secondary">
+             Copyright © <script>
+              document.write(new Date().getFullYear())
+            </script> | 365 Technology
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
   <!--   Core JS Files   -->
   <script src="./assets/js/core/popper.min.js"></script>
   <script src="./assets/js/core/bootstrap.min.js"></script>
